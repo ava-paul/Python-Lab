@@ -1,0 +1,10 @@
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+length_of_set = len(it_companies)
+print("Length of it_companies:", length_of_set)
+it_companies.add('Twitter')
+print("Set after adding 'Twitter':", it_companies)
+it_companies.update(['Netflix', 'Tesla', 'Adobe'])
+print("Set after adding multiple companies:", it_companies)
+it_companies.remove('Facebook') 
+print("Set after removing 'Facebook':", it_companies)
+it_companies.discard('NonExistentCompany') 
